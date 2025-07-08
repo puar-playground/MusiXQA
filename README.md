@@ -1,5 +1,5 @@
 # MusiXQA
-A well-annotated dataset of music sheet images designed for VQA in music understanding.
+A large-scale dataset of music sheet images designed for VQA in music understanding.
 - Paper: [arXiv](https://arxiv.org/abs/2506.23009)
 
 ## Dataset
