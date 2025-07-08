@@ -9,7 +9,7 @@ A well-annotated dataset of music sheet images designed for VQA in music underst
 - A structured annotation (from `metadata.json`)
 - Question–Answer (QA) pairs targeting musical structure, semantics, and optical music recognition (OMR)
 
-## Install
+## Installation
 This code is written in python 3.10. 
 ```
 conda create -n MusiXQA python=3.10
