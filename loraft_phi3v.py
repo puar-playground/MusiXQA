@@ -147,6 +147,7 @@ def main(args):
 
     # load TrainingArguments
     train_args = TrainingArguments(
+            deepspeed=args.deepspeed,
             num_train_epochs=args.num_train_epochs,
             remove_unused_columns=False,
             per_device_train_batch_size=1,
@@ -224,6 +225,7 @@ if __name__=='__main__':
     parser.add_argument("--output_dir", default=f"adapters/test", 
                         help="directory to save checkpoints", type=str)
     parser.add_argument("--hub_name", default="secret_phi3v_checkpoint", help="repo name on huggingface", type=str)
+    parser.add_argument("--deepspeed", type=str, default=None, help="Path to DeepSpeed config JSON")
     parser.add_argument("--hf_token", default=None, help="hf token", type=str, required=True)
     parser.add_argument("--wandb_token", default=None, help="wandb token", type=str, required=True)
     args = parser.parse_args()
