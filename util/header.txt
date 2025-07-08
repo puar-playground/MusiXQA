@@ -1,0 +1,25 @@
+\documentclass{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\geometry{left=2.2cm, top=1cm, right=2.5cm, bottom=2.2cm, footskip=1cm}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage[chorded]{songs}
+\usepackage{musixtex}
+\usepackage{graphicx}
+\usepackage{xcolor, color}
+\usepackage{etex}
+\usepackage{harmony}
+\noversenumbers 
+\def\setmeterSText#1{#1}
+\renewcommand{\lyricfont}{\small}
+\renewcommand{\printchord}{\it\small}
+\let\tighten=\relax
+
+
+\begin{document}
+\title{Title_str}
+\author{Author_str}
+\date{}
+\maketitle
