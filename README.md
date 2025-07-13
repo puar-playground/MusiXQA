@@ -1,6 +1,6 @@
 # MusiXQA
 A large-scale dataset of music sheet images designed for VQA in music understanding.
-- Paper: [arXiv](https://arxiv.org/abs/2506.23009)
+[arXiv](https://arxiv.org/abs/2506.23009), [Huggingface](https://huggingface.co/papers/2506.23009)
 
 ## Dataset
 [MusiXQA](https://huggingface.co/datasets/puar-playground/MusiXQA) is a multimodal dataset for evaluating and training music sheet understanding systems. Each data sample is composed of:
